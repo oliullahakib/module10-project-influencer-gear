@@ -302,6 +302,26 @@ main section {
 
 }
 
+/* footer section start */
+footer{
+  text-align: center;
+  background-color: rgb(25, 25, 71);
+}
+.footer-content{
+  color: white;
+  padding: 3rem;
+  margin-top: 3rem;
+}
+.footer-icon{
+  gap: 1rem;
+  justify-content: center;
+  cursor: pointer ;
+}
+.footer-icon a{
+  text-decoration: none;
+  color: white;
+  
+}
 /* quary for mobile */
 @media screen and (max-width:576px) {
 

@@ -174,7 +174,22 @@
     color: var(--dark1);
     margin-bottom: 0;
 }
-
+/* main section style start  */
+main{
+    max-width: 1110px;
+    margin: auto
+}
+main section{
+   margin-top:6.25rem ;
+}
+.sponsors{
+   display: flex;
+   align-items: center;
+   gap: 3.8rem;
+   border-top: 1px solid var(--dark2);
+   border-bottom: 1px solid var(--dark2);
+   padding: 2.75rem 0;
+}
 /* quary for mobile */
 @media screen and (max-width:576px) {
     .navbar,
@@ -190,6 +205,10 @@
         flex-direction: column-reverse;
         text-align: center;
         gap: 2rem;
+    }
+    .sponsors{
+      flex-wrap: wrap;
+      justify-content: center;
     }
 }
 /* quary for table */
@@ -207,5 +226,9 @@
     .banner{
         flex-direction: column-reverse;
         text-align: center;
+    }
+    .sponsors{
+      flex-wrap: wrap;
+      justify-content: center;
     }
 }
